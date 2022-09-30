@@ -2,7 +2,7 @@
 
 The Thomas International General Intelligence Assessment (GIA) is a speed test that measures your ability to quickly learn, comprehend and retain information.
 
-The test has 5 parts:
+The test has five parts:
 
 1. Perceptual Speed
 2. Reasoning
@@ -10,13 +10,14 @@ The test has 5 parts:
 4. Spatial Visualisation
 5. Word Meaning
 
-The aim of this project is to provide a simple tool to train and improve your performance.
+This project aims to provide a simple tool to exercise and improve your performance.
+I don't own any rights to the GIA test. It is just an implementation of what is publicly available.
 
 ## Installation
 
 The code has been developed and tested on Python 3.8.10 (Anaconda).
 
-You can install with (there is some extra stuff like nltk which I am not using yet):
+You can install with (there is some extra stuff like nltk that I am not using yet):
 ```
 pip install -r requirements
 ```
