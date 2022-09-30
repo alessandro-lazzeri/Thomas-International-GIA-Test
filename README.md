@@ -31,3 +31,4 @@ python src\main.py
 - Make a GUI
 - Collect more examples from the GIA test
 - Extend the score with the timing
+- Add squared images for the Spatial Visualization test
