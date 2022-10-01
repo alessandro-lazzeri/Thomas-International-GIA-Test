@@ -3,7 +3,7 @@ from gui.textPrompt import GIAprompt
 from giatests.scorer import Scorer
 from giatests.giaTest import GIAtest
 
-NUMBER_OF_QUESTION_PER_TEST = 2
+NUMBER_OF_QUESTION_PER_TEST = 5
 
 if __name__ == '__main__':
     giatest = GIAtest()

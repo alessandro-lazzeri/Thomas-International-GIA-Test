@@ -69,7 +69,7 @@ def makeSpatialVisualizationItem():
             flip = None
         newImages.append(make_new_image(image, rotate, flip))
 
-    return sum(mirrors), {"images" : newImages}
+    return str(sum(mirrors)), {"images" : newImages}
 
 if __name__ == '__main__':
 

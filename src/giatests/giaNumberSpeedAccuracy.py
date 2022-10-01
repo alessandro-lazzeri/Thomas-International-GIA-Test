@@ -48,7 +48,7 @@ def makeTriplet():
 
     # shuffle
     random.shuffle(numbers)
-    return numbers, solution
+    return numbers, str(solution)
 
 
 

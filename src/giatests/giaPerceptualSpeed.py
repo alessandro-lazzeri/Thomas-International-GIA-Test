@@ -48,7 +48,7 @@ def makePerceptualSpeedItem():
     secondrow = ''.join(chars[NCHARS:])
 
 
-    return sameChar, {"firstrow" : firstrow,"secondrow" : secondrow}
+    return str(sameChar), {"firstrow" : firstrow,"secondrow" : secondrow}
 
 if __name__ == '__main__':
 
