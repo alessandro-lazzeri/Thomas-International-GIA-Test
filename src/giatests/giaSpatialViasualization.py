@@ -11,11 +11,11 @@ solution is # of group 1
 
 """
 import random
-import os
+from pathlib import Path
 from PIL import Image
 
+IMAGEPATH = Path(__file__).parent.parent.parent.joinpath("data\spatialVisualizationImages")
 
-IMAGEPATH = "../data/spatialVisualizationImages"
 NSAMPLES = 2
 
 ROTATE = [90,180,270]
@@ -23,7 +23,7 @@ FLIP = ["LEFT_RIGHT","TOP_BOTTOM","TRANSPOSE"]
 
 def make_new_image(image_path, degrees_to_rotate, type_of_flip):
     # rotate and flip
-    original_image = Image.open(os.path.join(IMAGEPATH, image_path))
+    original_image = Image.open(image_path)
 
     if degrees_to_rotate == 90:
         rotation = Image.Transpose.ROTATE_90
@@ -51,7 +51,7 @@ def make_new_image(image_path, degrees_to_rotate, type_of_flip):
 def makeSpatialVisualizationItem():
 
     #get and sample the images
-    image_paths = os.listdir(IMAGEPATH)
+    image_paths = [x for x in IMAGEPATH.iterdir() if x.is_file()]
 
     images = random.sample(image_paths,NSAMPLES)
 

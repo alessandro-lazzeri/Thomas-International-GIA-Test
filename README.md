@@ -28,6 +28,7 @@ python src\main.py
 
 ## TODO
 - Fix some bugs (e.g., Number Speed and Accuracy test)
+- Reasoning Test: the statement appears, then it disappears, and finally the question appears 
 - Make a GUI
 - Collect more examples from the GIA test
 - Extend the score with the timing

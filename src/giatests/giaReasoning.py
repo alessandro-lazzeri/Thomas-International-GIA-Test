@@ -25,7 +25,13 @@ NAMES = ["Han", "Leia", "Luke","Anakin", "Obi"]
 ADJ = [("heavier", "lighter"),
        ("happier", "sadder"),
        ("smarter", "duller"),
-       ("faster", "slower")]
+       ("faster", "slower"),
+       ("bigger", "smaller"),
+       ("meaner", "kinder"),
+       ("quicker", "slower"),
+       ("more beautiful", "less beautiful"),
+       ("more interesting", "less interesting")
+       ]
 
 # The template of the sentences. The boolean helps to manage the "as not as" form.
 ITEM = [

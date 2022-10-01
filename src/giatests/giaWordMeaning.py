@@ -21,7 +21,11 @@ VOCABULARY = [("dog", "cat"),
               ("car", "train"),
               ("person", "individual"),
               ("math", "history"),
-              ("sword", "spear")]
+              ("bad", "evil"),
+              ("computer", "smartphone"),
+              ("Windows", "Linux"),
+              ("Tie Fighter", "X-Wing"),
+              ("Mars", "Saturn")]
 
 
 def makeWordMeaningItem():
